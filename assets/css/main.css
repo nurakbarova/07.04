@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+}
+
+.cards {
+  height: 160px;
+  width: 100%;
+  left: 25%;
+  top: 100%;
+  border-radius: nullpx;
+  text-align: center;
+}
+.cards_tittle {
+  padding: 3%;
+}
+.cards_tittle > h1 {
+  padding: 2%;
+}
+.cards_tittle > p {
+  color: #96BB7C;
+}
+.cards_btn {
+  border: none;
+  margin-right: 2%;
+  background-color: aquamarine;
+}
+.cards #color {
+  padding: 15px 40px;
+  gap: 10px;
+  width: 193px;
+  color: white;
+  height: 52px;
+  background-color: #96BB7C;
+}
+.cards #white {
+  color: #96BB7C;
+  width: 193px;
+  height: 52px;
+}
+
+.packages {
+  margin: 14% auto;
+}
+
+.packages_cards {
+  display: flex;
+  justify-content: space-around;
+}
+.packages_cards_1 {
+  height: 288px;
+  width: 238px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 35px 40px 35px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.packages_cards_2 {
+  height: 288px;
+  width: 241px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 35px 40px 35px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.packages_cards_3 {
+  height: 288px;
+  width: 240px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 35px 40px 35px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #96BB7C;
+}
+.packages_cards_4 {
+  height: 288px;
+  width: 240px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 35px 40px 35px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.courses {
+  border: 1px solid black;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses_img {
+  border: 1px solid black;
+}
+
+.popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3px;
+}
+.popular_tittle {
+  border: 1px solid black;
+  width: 50%;
+  height: 60%;
+  margin: 4%;
+}
+.popular_tittle > h4 {
+  color: blue;
+}
+.popular_tittle p {
+  padding-top: 3px;
+}
+
+.nav {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_link_item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav_link_item_li {
+  margin-right: 20px;
+}/*# sourceMappingURL=main.css.map */

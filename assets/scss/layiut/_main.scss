@@ -1,0 +1,135 @@
+.cards {
+
+    height: 160px;
+    width: 100%;
+    left: 25%;
+    top: 100%;
+    border-radius: nullpx;
+    text-align: center;
+
+    &_tittle {
+        padding: 3%;
+
+        &>h1 {
+            padding: 2%;
+        }
+
+        &>p {
+            color: #96BB7C;
+        }
+    }
+
+    &_btn {
+        border: none;
+        margin-right: 2%;
+        background-color: aquamarine;
+    }
+
+    #color {
+        padding: 15px 40px;
+        gap: 10px;
+        width: 193px;
+        color: white;
+        height: 52px;
+        background-color: #96BB7C;
+    }
+
+    #white {
+        color: #96BB7C;
+        width: 193px;
+        height: 52px;
+
+    }
+}
+
+.packages {
+    margin: 14% auto;
+}
+
+.packages_cards {
+    display: flex;
+    justify-content: space-around;
+
+
+    &_1 {
+        height: 288px;
+        width: 238px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 35px 40px 35px 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    }
+
+    &_2 {
+        height: 288px;
+        width: 241px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 35px 40px 35px 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        ;
+
+    }
+
+    &_3 {
+        height: 288px;
+        width: 240px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 35px 40px 35px 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        ;
+        background-color: #96BB7C;
+    }
+
+    &_4 {
+        height: 288px;
+        width: 240px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 35px 40px 35px 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        ;
+
+    }
+}
+
+.courses {
+    border: 1px solid black;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_img {
+        border: 1px solid black;
+    }
+
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+
+
+    &_tittle {
+        border: 1px solid black;
+        width: 50%;
+        height: 60%;
+        margin: 4%;
+    }
+    &_tittle>h4{
+        color: blue;
+    }
+    &_tittle p{
+      padding-top: 3px;
+    }
+
+}
